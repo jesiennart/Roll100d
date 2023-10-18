@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: violet;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    max-height: 600px;
+    padding: 1rem;
+    background-color: purple;
+    border: 1px solid rgb(118, 1, 118);
+    border-radius: 10px;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.title {
+    color: silver;
+    text-align: center;
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    margin: 1rem;
+    border: 2px solid rgb(84, 1, 84);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: purple;
+    background-color: whitesmoke;
+    cursor: pointer;
+    -webkit-box-shadow: 8px 8px 24px -12px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px -12px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px -12px rgba(66, 68, 90, 1);
+    transition: all .5s;
+}
+
+.btn:hover {
+    background-color: rgb(240, 168, 240);
+}
+
+.popup {
+    position: absolute;
+    top: 240px;
+    visibility: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    max-height: 500px;
+    padding: 0.5rem;
+    border: 2px solid  rgb(240, 168, 240);
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+
+.btn-roll, .btn-return {
+    width: 100px;
+    height: 70px;
+    margin: 0.5rem;
+    padding: 20px 10px;
+    border: 2px solid violet;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: purple;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn-roll:hover, .btn-return:hover {
+    background-color: rgb(240, 168, 240);
+}
+
+.btn-return:hover {
+    background-color: rgb(240, 168, 240);
+    border: 2px solid red;
+    color: red;
+}
+
+.score {
+    font-size: 3rem;
+    color: purple;
+    margin: 10px;
+}
