@@ -40,7 +40,7 @@ const showPop8 = (params) => {
 }
 const showPop10 = (params) => {
     popup.style.visibility = 'visible';
-    result.textContent = 'GoGood Luck';
+    result.textContent = 'Good Luck';
     function k10() {
     let number = Math.floor(Math.random() * 10 + 1);
     result.textContent = number; 
