@@ -13,7 +13,7 @@ const mainBtn = document.querySelectorAll('.btn')
 
 const showPop4 = (params) => {
     popup.style.visibility = 'visible';
-    result.textContent = 'Powodzenia';
+    result.textContent = 'Good Luck :)';
     function k4() {
     let number = Math.floor(Math.random() * 4 + 1);
     result.textContent = number;
@@ -22,7 +22,7 @@ const showPop4 = (params) => {
 }
 const showPop6 = (params) => {
     popup.style.visibility = 'visible';
-    result.textContent = 'Powodzenia';
+    result.textContent = 'Good Luck :)';
     function k6() {
     let number = Math.floor(Math.random() * 6 + 1);
     result.textContent = number;
@@ -31,7 +31,7 @@ const showPop6 = (params) => {
 }
 const showPop8 = (params) => {
     popup.style.visibility = 'visible';
-    result.textContent = 'Powodzenia';
+    result.textContent = 'Good Luck :)';
     function k8() {
     let number = Math.floor(Math.random() * 8 + 1);
     result.textContent = number; 
@@ -40,7 +40,7 @@ const showPop8 = (params) => {
 }
 const showPop10 = (params) => {
     popup.style.visibility = 'visible';
-    result.textContent = 'Powodzenia';
+    result.textContent = 'GoGood Luck :)';
     function k10() {
     let number = Math.floor(Math.random() * 10 + 1);
     result.textContent = number; 
@@ -49,7 +49,7 @@ const showPop10 = (params) => {
 }
 const showPop12 = (params) => {
     popup.style.visibility = 'visible';
-    result.textContent = 'Powodzenia';
+    result.textContent = 'Good Luck :)';
     function k12() {
     let number = Math.floor(Math.random() * 12 + 1);
     result.textContent = number; 
@@ -58,7 +58,7 @@ const showPop12 = (params) => {
 }
 const showPop20 = (params) => {
     popup.style.visibility = 'visible';
-    result.textContent = 'Powodzenia';
+    result.textContent = 'Good Luck :)';
     function k20() {
     let number = Math.floor(Math.random() * 20 + 1);
     result.textContent = number; 
@@ -67,7 +67,7 @@ const showPop20 = (params) => {
 }
 const showPop100 = (params) => {
     popup.style.visibility = 'visible';
-    result.textContent = 'Powodzenia';
+    result.textContent = 'Good Luck :)';
     function k100() {
     let number = Math.floor(Math.random() * 100 + 1);
     result.textContent = number; 
