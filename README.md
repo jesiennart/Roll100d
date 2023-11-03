@@ -5,12 +5,16 @@
 
 > This application is for everyone who loves tabletop role-playing games.
 
-###
+### About The Project
+
+If you dont have phisical rpg dice or you dont want use it this app help You in your rpg session. You could roll all kind of dice, from 4d to 100d.
+
+Link to project: https://roll100dice.netlify.app/
 
 ## General Information
 
 ```sh
-If you dont have phisical rpg dice or you dont want use it this app help You in your rpg session. You could roll all kind of dice, from 4d to 100d.
+https://github.com/jesiennart/Roll100d.git
 ```
 ## Technologies Used
 
