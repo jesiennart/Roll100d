@@ -51,6 +51,7 @@ h1 {
 }
 
 .btn {
+  visibility: visible;
   width: 70px;
   height: 70px;
   margin: 16px;
@@ -118,6 +119,23 @@ h1 {
   font-size: 3rem;
   color: purple;
   margin: 10px;
+}
+
+.popup-shadow {
+  background-color: rgb(128, 0, 128, 1);
+}
+
+.animation {
+  animation: showModal .4s;
+}
+
+@keyframes showModal {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 @media (max-width: 370px) {
