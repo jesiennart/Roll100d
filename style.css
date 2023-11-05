@@ -10,7 +10,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: rgb(238, 129, 238);
   background-image: url("./Img/rpg-tavern.jpg");
   background-position: center;
   background-size: cover;
@@ -30,6 +29,8 @@ body {
   -webkit-box-shadow: 0px 8px 34px 7px rgba(248, 152, 248, 0.75);
   -moz-box-shadow: 0px 8px 34px 7px rgba(248, 152, 248, 0.75);
   box-shadow: 0px 8px 34px 7px rgba(248, 152, 248, 0.75);
+  transform: scale(1);
+  transition: all 0.5s;
 }
 
 .main {
@@ -87,6 +88,8 @@ h1 {
   border-radius: 10px;
   font-weight: bold;
   background-color: whitesmoke;
+  transform: scale(0);
+  transition: all 0.5s;
 }
 
 .btn-roll,
@@ -121,21 +124,14 @@ h1 {
   margin: 10px;
 }
 
-.popup-shadow {
-  background-color: rgb(128, 0, 128, 1);
-}
-
 .animation {
-  animation: showModal .4s;
+  transform: scale(1);
+  transition: all 0.5s;
 }
 
-@keyframes showModal {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
+.hide-con {
+  transform: scale(0);
+  transition: all 0.5s;
 }
 
 @media (max-width: 370px) {

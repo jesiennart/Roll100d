@@ -10,11 +10,13 @@ const returnBtn = document.querySelector(".btn-return");
 const roll = document.querySelector(".btn-roll");
 const result = document.querySelector(".result");
 const mainBtn = document.querySelectorAll(".btn");
+const con = document.querySelector(".container");
 
 const showPop = () => {
   popup.style.visibility = "visible";
   result.textContent = "Good Luck";
   popup.classList.add("animation");
+  con.classList.add("hide-con");
 };
 
 const showPop4 = () => {
@@ -77,7 +79,8 @@ const showPop100 = () => {
 const hidePop = () => {
   popup.style.visibility = "hidden";
   result.textContent = "";
-  popup.classList.remove("animation");
+  popup.classList.toggle("animation");
+  con.classList.remove("hide-con");
 };
 
 btn4.addEventListener("click", showPop4);
