@@ -11,7 +11,7 @@ If you dont have phisical rpg dice or you dont want use it this app help You in 
 
 Link to project: https://roll100dice.netlify.app/
 
-## General Information
+## Repository
 
 ```sh
 https://github.com/jesiennart/Roll100d.git
@@ -32,7 +32,7 @@ https://github.com/jesiennart/Roll100d.git
 
 ## Screenshots
 
-<img src="./Img/roll100d.png">
+<img src="./Img/Roll100d.png">
 
 ## Project Status
 
