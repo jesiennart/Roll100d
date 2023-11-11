@@ -32,7 +32,7 @@ https://github.com/jesiennart/Roll100d.git
 
 ## Screenshots
 
-<img src="./Img/Roll100d.png">
+<img src="./Img/Roll100d-front.png" alt="picture of app">
 
 ## Project Status
 
