@@ -57,3 +57,4 @@ This project was inspired by my tabletop gaming experiance. I needed simple and 
 ## Contact
 
 Email: artmol@op.pl
+git status
